@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    color: seagreen;
+    font-family: Helvetica, Arial, sans-serif;
+}
+a{
+    color: lightgreen;
+    padding: 5px;
+    background-color: darkslategrey;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background-image: url("https://www.wallpaperflare.com/static/689/20/945/web-development-minimalism-text-web-wallpaper.jpg");
+}
+div{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
