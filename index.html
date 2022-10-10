@@ -13,38 +13,45 @@
 </head>
 
 <body>
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center">
-              <li><a href="https://www.dropbox.com/s/f0cn5sau7q483x8/Bailey%20Baker%20Resume.pdf?dl=0" class="nav-link px-2 text-white">Resume</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Portfolio</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Contact Me</a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="https://www.dropbox.com/s/f0cn5sau7q483x8/Bailey%20Baker%20Resume.pdf?dl=0" class="nav-link active" aria-current="page" style="color:lightgreen; background-color:darkslategrey;">Resume</a></li>
+        <li class="nav-item"><a href="https://github.com/bakerbailey6" class="nav-link active" aria-current="page" style="color:lightgreen; background-color:darkslategrey;">GitHub</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/bailey-baker" class="nav-link active" aria-current="page" style="color:lightgreen; background-color:darkslategrey;">LinkedIn</a></li>
+      </ul>
+    </header>
     <hr>
     <main>
         <div class="div-info">
           <h1>Bailey Baker</h1>
           <h3>Full Stack Developer</h3>
-          <img src="bakerbailey6.github.io/310157700_3271286413118565_1355510039132305825_n.jpg" alt = "Picture of Myself">   
+          <img class="self-photo" src="bakerbailey6.github.io/310157700_3271286413118565_1355510039132305825_n.jpg" alt = "Picture of Myself">   
         </div>
         <hr>
-        <div>
-            <h3>Skills</h3>
-            <p>TBC</p>
+        <div id="about-me" class="about-me">
+            <h3>About Me</h3>
+            <p>I began programming back in 2018 when I took an Introduction to Computer Science class at Mt. Hood Community College and I immediately fell in love. I knew coding was something I could see myself doing for the long haul.
+              Since then I have completed multiple Computer Science classes and an extensive boot camp through the PDX Code Guild where I have further refined my skills. Some of the Languages I have learned over the years include Python, JavaScript, HTML, CSS, C++, and C#.
+            </p>
         </div>
-        <div class="BeFake">
-          <h3>BeFake</h3>
-          <a href="https://befake-app.herokuapp.com/">Link</a>
-        </div>
-        <div class="Wordle">
-          <h3>MLB Wordle</h3>
-          <a href="https://baileybaker.dev/MLBWordle/">Link</a>
+        <hr>
+        <div class="portfolio" id="portfolio">
+          <div class="befake">
+            <h3>BeFake</h3>
+            <p>Social Media site with loads of functionality including posting pictures, likes, comments, direct messaging, following, and more!</p>
+            <img class="example-img"src="C:\Users\bailey\Pictures\befake.PNG" alt="Picture of app"><br>
+            <a  class="portfolio-link" href="https://befake-app.herokuapp.com/">Live Site</a>
+          </div>
+          <hr>
+          <div class="wordle">
+            <h3>MLB Wordle</h3>
+            <p>A reimagining of the famous NY Times game "Wordle". Try and guess the correct MLB player while receiving clues with each passing guess.</p>
+            <img class="example-img"src="C:\Users\bailey\Pictures\MLBWordle.PNG" alt="Picture of app"><br>
+            <a class="portfolio-link"href="https://baileybaker.dev/MLBWordle/">Give it a Try!</a>
+          </div>
         </div>
     </main>
-    <footer>
+    <footer id="contactMe">
 
 
     </footer>

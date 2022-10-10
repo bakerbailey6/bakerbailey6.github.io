@@ -4,16 +4,22 @@ header{
     font-family: Helvetica, Arial, sans-serif;
     margin: 1px;
 }
-a{
+.nav-item { 
+   margin: 10px;
+}
+.portfolio-link{
     color: lightgreen;
-    padding: 5px;
+    padding: 10px;
     background-color: darkslategrey;
-    margin: 10px;
+    margin: auto;
     border-radius: 5px;
     font-family: Helvetica, Arial, sans-serif;
 }
 body{
     background-image: url("https://www.wallpaperflare.com/static/689/20/945/web-development-minimalism-text-web-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 div{
     text-align: center;
@@ -21,9 +27,38 @@ div{
     border-radius: 5px;
     font-family: Helvetica, Arial, sans-serif;
 }
-img{
+.self-photo{
     max-width: 15%;
     height: auto;
+}
+
+.about-me{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+
+.wordle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    padding: 2em;
+
+}
+
+.example-img{
+    width:25%;
+    margin:auto;
+}
+
+.befake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    padding: 2em;
 }
 
 
